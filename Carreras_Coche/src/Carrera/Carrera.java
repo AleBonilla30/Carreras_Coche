@@ -9,7 +9,10 @@ public class Carrera {
     private double kmTotales;
     private int numeroVueltas;
 
-    public Carrera(Coche participante1,Coche participante2, double kmTotales, int numeroVueltas) {
+    public Carrera() {
+    }
+
+    public Carrera(Coche participante1, Coche participante2, double kmTotales, int numeroVueltas) {
         this.participante1 = participante1;
         this.participante2 = participante2;
         this.kmTotales = kmTotales;
