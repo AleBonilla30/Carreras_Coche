@@ -20,9 +20,9 @@ public class Coche {
     public void Acelerar(int velocidadAcelerar){
 
        if (cv < 100){
-           velocidad += (int) (Math.random()*velocidadAcelerar+1);
+           velocidad += (int) (Math.random()*velocidadAcelerar);
        }else {
-           velocidad +=10 + (int)(Math.random()*velocidadAcelerar-9);
+           velocidad +=10 + (int)(Math.random()*velocidadAcelerar);
        }
        double incrementoRecorrido=  0.5*velocidad;
        kmRecorridos += incrementoRecorrido;

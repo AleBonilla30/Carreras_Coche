@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Entrada {
     public static void main(String[] args) {
 
-        Coche coche1 = new Coche("Volswagen wolf","GTI MK7","1234-JAM",100,1200);
+        Coche coche1 = new Coche("Volkswagen golf","GTI MK7","1234-JAM",100,1200);
         Coche coche2 = new Coche("Seat leon","MK3","5678-AGB",95,1100);
         System.out.println("Los participantes son:");
         System.out.println("Participante 1 🚗:");
